@@ -1,0 +1,18 @@
+
+<style>
+    table{
+        width:100%;
+    }
+</style>
+
+<table >
+    {%for msg in msgs%}
+    <tr>
+        <td>{{msg[0]}}</td>
+        <td>{{msg[1]}}</td>
+        <td>{{msg[2]}}</td>
+        <td>{{msg[3]}}</td>
+        <td>{{msg[4]}}</td>
+    </tr>
+    {%endfor%}
+</table>
